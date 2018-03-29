@@ -1,6 +1,6 @@
 ## [Módulo 1: Programação Java](https://aula-java.github.io/aulas/modulo-1.html)
 
-### [Exercício: Implementaçoes: Collections](https://aula-java.github.io/aulas/implementacao/#/2)
+### [Exercício: Implementaçoes: Collections](https://aula-java.github.io/aulas/implementacao/#/1)
 
 1. Clone o projeto faça as alterações para que passe no teste unitário.
 
