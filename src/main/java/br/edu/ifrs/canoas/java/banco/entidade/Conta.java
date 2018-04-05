@@ -1,11 +1,19 @@
 package br.edu.ifrs.canoas.java.banco.entidade;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public abstract class Conta {
 	
 	private int numero;
 	protected double saldo;
 	private double limite;
-	private Cliente titular;
+	private Cliente cliente;
+	private List<Transacao> transacoes;
+	
+	public Conta() {
+		transacoes = new ArrayList<>();
+	}
 
 	public boolean saca(double valor) {
 		if (this.saldo < valor) {
@@ -59,12 +67,16 @@ public abstract class Conta {
 		this.limite = limite;
 	}
 
-	public Cliente getTitular() {
-		return titular;
+	public Cliente getCliente() {
+		return cliente;
 	}
 
-	public void setTitular(Cliente titular) {
-		this.titular = titular;
+	public void setCliente(Cliente titular) {
+		this.cliente = titular;
+	}
+
+	public List<Transacao> getTransacoes() {
+		return transacoes;
 	}
 	
 	
