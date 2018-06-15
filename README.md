@@ -1,4 +1,4 @@
-## [Módulo 1: Programação Java](https://aula-java.github.io/aulas/modulo-1.html)
+## [Módulo 1: Linguagem de Programação Orientada a Objetos 1](https://aula-java.github.io/aulas/lpoo-1.html)
 
 ### [Exercício: Implementaçoes: Collections](https://aula-java.github.io/aulas/implementacao/#/1)
 
