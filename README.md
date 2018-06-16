@@ -1,10 +1,10 @@
 ## [Linguagem de Programação Orientada a Objetos 1](https://rodrigonoll.github.io/java/lpoo-1.html)
 
-### [Exercício: Implementaçoes: Collections](https://aula-java.github.io/aulas/implementacao/#/1)
+### [Exercício: Implementaçoes: Collections](https://rodrigonoll.github.io/java/implementacao/#/1)
 
 1. Clone o projeto faça as alterações para que passe no teste unitário.
 
-<img height="400" src="https://aula-java.github.io/aulas/implementacao/collections/exerc-1.png">
+<img height="400" src="https://rodrigonoll.github.io/java/implementacao/collections/exerc-1.png">
 
 2. Altere o projeto de forma que a classe Cliente armazene todas as suas contas e mantenha a consistência. Para isso, o método Cliente.adicionaConta deve incluir a instrução "conta.setCliente(this);" antes de adicionar a conta na lista de contas do cliente. O projeto deve passar pelos testes unitários. Dica: para saber se um objeto é instância de uma classe, use o operador instanceof (por exemplo, para saber se uma conta é conta corrente ou poupança).   
 
